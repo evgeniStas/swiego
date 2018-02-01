@@ -143,6 +143,7 @@ if(get_locale()=="he_IL"){
                     <ul id="menu">
                         <span class="icon-envelope-o" ></span> <li  aria-hidden="true"><?php the_field('email_text',$postTRanslate); ?>: <a href="mailto:<?php the_field('email',$postTRanslate); ?>"><?php the_field('email',$postTRanslate); ?></a></li>
                         <span class="icon-phone" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
+
                         <li>
                             <?php if(get_locale()=="he_IL"){?>
                                 <a href="<?php echo site_url();?>/?lang=en">English version</a>
@@ -150,13 +151,14 @@ if(get_locale()=="he_IL"){
                                 <a href="<?php echo site_url();?>/?lang=he">Hebrew</a>
                             <?php }?>
                         </li>
-                        <li>
-                            <?php if(get_locale()=="he_IL"){?>
-                                <a href="<?php echo esc_url( get_permalink(150) ); ?>"><?php the_field('articles',$postTRanslate); ?></a>
-                            <?php }else{?>
-                                <a href="<?php echo esc_url( get_permalink(148) ); ?>"><?php the_field('articles',$postTRanslate); ?></a>
-                            <?php }?>
-                        </li>
+                        <!--<li>
+                            <?php //if(get_locale()=="he_IL"){?>
+                                <a href="<?php //echo esc_url( get_permalink(150) ); ?>"><?php //the_field('articles',$postTRanslate); ?></a>
+                            <?php //}else{?>
+                                <a href="<?php //echo esc_url( get_permalink(148) ); ?>"><?php //the_field('articles',$postTRanslate); ?></a>
+                            <?php //}?>
+                        </li>-->
+
                     </ul>
                 </nav>
             </div>
