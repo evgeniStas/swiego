@@ -175,16 +175,17 @@
 
 
     var mobileMenuOutsideClick = function () {
-
+/*
         $(document).click(function (e) {
             var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
             if (container.is(e.target) && container.has(e.target).length === 0) {
+                alert(1);
                 if ($('body').hasClass('offcanvas-visible')) {
                     $('body').removeClass('offcanvas-visible');
                     $('.js-fh5co-nav-toggle').removeClass('active');
                 }
             }
-        });
+        });*/
     };
 
     var offcanvasMenu = function () {
