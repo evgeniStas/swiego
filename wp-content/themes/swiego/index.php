@@ -40,10 +40,10 @@
                     <div class="info">
                         <div class="arrow" onclick="scrollToElement(2);"></div>
 
-                        <h1><?php the_field('title'); ?></h1>
-                        <h2><?php the_field('description'); ?></h2>
+                        <h1><?php //the_field('title'); ?></h1>
+                        <h2><?php //the_field('description'); ?></h2>
                         <button type="button" onclick="scrollToElement(1);" class="btn btn-primary btn-block btn-header"
-                                id="scroll"><?php the_field('btn_contact'); ?>
+                                id="scroll"><?php //the_field('btn_contact'); ?>
                         </button>
                     </div>
                 </div>

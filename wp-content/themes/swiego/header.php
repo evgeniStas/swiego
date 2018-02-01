@@ -145,9 +145,9 @@ if(get_locale()=="he_IL"){
                         <span class="icon-phone" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone_text',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
                         <li>
                             <?php if(get_locale()=="he_IL"){?>
-                                <a href="/wordpress/?lang=en">English version</a>
+                                <a href="<?php echo site_url();?>/?lang=en">English version</a>
                             <?php }else{?>
-                                <a href="/wordpress/?lang=he">Hebrew</a>
+                                <a href="<?php echo site_url();?>/?lang=he">Hebrew</a>
                             <?php }?>
                         </li>
                         <li>
