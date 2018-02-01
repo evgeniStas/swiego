@@ -136,13 +136,13 @@ if(get_locale()=="he_IL"){
         <div class="container">
             <div class="header-inner">
                 <div class="">
-                    <a href="/"> <img src="<?php echo get_template_directory_uri();?>/images/logo_transp.png" width="250" height="40" alt="SWIEGO"> </a>
+                    <a href="<?php echo site_url();?>"> <img src="<?php echo get_template_directory_uri();?>/images/logo_transp.png" width="250" height="40" alt="SWIEGO"> </a>
                     <h1>SWIEGO</h1>
                 </div>
                 <nav role="navigation">
                     <ul id="menu">
                         <span class="icon-envelope-o" ></span> <li  aria-hidden="true"><?php the_field('email_text',$postTRanslate); ?>: <a href="mailto:<?php the_field('email',$postTRanslate); ?>"><?php the_field('email',$postTRanslate); ?></a></li>
-                        <span class="icon-phone" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone_text',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
+                        <span class="icon-phone" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
                         <li>
                             <?php if(get_locale()=="he_IL"){?>
                                 <a href="<?php echo site_url();?>/?lang=en">English version</a>
