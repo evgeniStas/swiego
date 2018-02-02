@@ -42,7 +42,6 @@
             },
             {}
         );
-    //localStorage.setItem('swiegoLang', "");
     var langStore = localStorage.getItem('swiegoLang');
     var lang = paramsUrl["lang"];
 
@@ -50,17 +49,6 @@
     if (!langStore) {
         localStorage.setItem('swiegoLang', JSON.stringify('en'));
     }
-
-    /*
-
-    //localStorage.setItem('swiegoLang', JSON.stringify(lang));
-
-    if(langStore !=lang){
-        if(langStore!="en") {
-            localStorage.setItem('swiegoLang', JSON.stringify("he"));
-            window.location = 'http://localhost/wordpress/?lang=' + "he";
-        }
-    }*/
 
 
 
@@ -175,7 +163,7 @@
 
 
     var mobileMenuOutsideClick = function () {
-/*
+    /*
         $(document).click(function (e) {
             var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
             if (container.is(e.target) && container.has(e.target).length === 0) {
@@ -252,7 +240,8 @@
             nav: false,
             dots: true,
             smartSpeed: 500,
-            autoHeight: true
+            autoHeight: true,
+            autoplay:true
         });
     };
 
@@ -496,6 +485,9 @@ function sendContact(ev) {
                 url: ajax_url,
                 data: {
                     action: 'contact',
+                    name: obj["name"],
+                    email: obj["email"],
+                    phone: obj["phone"],
                     data: JSON.stringify(obj)
                 },
                 success: function (response) {
