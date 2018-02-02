@@ -290,7 +290,7 @@
         contentWayPoint();
         testimonialCarousel();
         watchScript();
-        jssor_1_slider_init();
+        //jssor_1_slider_init();
     });
 
     function watchScript() {
