@@ -1060,7 +1060,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background-position: center center;
     padding: 13em 0;
     position: relative;
-    height: 68vh;
+    /*height: 68vh;*/
 }
 
 
@@ -2510,7 +2510,11 @@ select::-ms-expand {
 .tech-icon {
     text-align: center;
     margin: 0 auto;
-    background: #262626;
+    padding: 20px;
+    /*background: #262626;*/
+}
+.tech-icon:hover {
+    background: #e8e8e8;
 }
 
 

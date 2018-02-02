@@ -104,6 +104,41 @@
             </div>
         </div>
     </div>
+    <div id='section2' class="section">
+        <div class="fh5co-cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box fadeInUp">
+                        <h2><?php the_field('technologies'); ?></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <?php
+                global $post;
+                $tmp_post = $post;
+                $args = array(  'post_type'=> 'technologies', 'posts_per_page' => -1);
+                $Technologies = get_posts( $args );
+                wp_reset_postdata();
+
+                foreach( $Technologies as $Technologie ) {
+                    setup_postdata($Technologie);
+                    $meta_values = get_post_meta( $Technologie->ID ,"class");
+                    ?>
+                    <div class="col-md-2 animate-box fadeInUp">
+                        <div class="tech-icon">
+                            <div style="font-size: 25px;" class="tech-title"><?php echo $Technologie->post_title; ?></div>
+                            <i style="font-size: 100px;" class="<?php echo $meta_values[0]; ?>"></i>
+                        </div>
+                    </div>
+                    <?php
+                }
+                $post = $tmp_post;
+                ?>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
     <div id='section3' class="section" >
         <div class="fh5co-cta" style="background-image: url(<?php echo get_template_directory_uri();?>/images/slide_2.jpg);">
             <div class="overlay"></div>
@@ -199,31 +234,6 @@
             </div>
         </div>
     </div>
-
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:50px;overflow:hidden;visibility:hidden;">
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
-            <?php
-            global $post;
-            $tmp_post = $post;
-            $args = array(  'post_type'=> 'technologies', 'posts_per_page' => -1);
-            $Technologies = get_posts( $args );
-            wp_reset_postdata();
-
-            foreach( $Technologies as $Technologie ) {
-            setup_postdata($Technologie);
-            $meta_values = get_post_meta( $Technologie->ID ,"class");
-            ?>
-                <div class="tech-icon">
-                    <div class="tech-title"><?php echo $Technologie->post_title; ?></div>
-                    <i class="<?php echo $meta_values[0]; ?>"></i>
-                </div>
-            <?php
-            }
-            $post = $tmp_post;
-            ?>
-        </div>
-    </div>
-
     <div id='section5' class="section">
         <?php get_footer(); ?>
     </div>
@@ -249,7 +259,8 @@
 <script src="<?php echo get_template_directory_uri();?>/js/jquery.flexslider-min.js"></script>
 <script src="<?php echo get_template_directory_uri();?>/js/canvas.js"></script>
 <!-- MAIN JS -->
-<script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/jquery.particleground.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
 
 
 </body>
