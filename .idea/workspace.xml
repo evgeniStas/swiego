@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a15f459d-50d6-4a7a-97e9-b9d72dd1cbfb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/diagnostic-head.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/diagnostic.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/editor-style-rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/editor-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/wp-admin-row-actions.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/wpa-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/css/wpa-styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/gpl.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/imgs/alt-missing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/imgs/alt-same.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/current-menu-item.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/longdesc.button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/longdesc.link.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/roles.jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/skiplinks.webkit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/js/wpa.labels.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-bg_BG.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-de_DE.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-el.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-fi.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-fr_FR.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-he_IL.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-it_IT.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-pl_PL.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-pt_BR.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-pt_PT.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-ro_RO.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-ru_RU.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility-sl_SI.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/lang/wp-accessibility.pot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/templates/longdesc-template.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/css/a11y-contrast.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/css/a11y-desaturate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/css/a11y-fontsize-alt.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/css/a11y-fontsize.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/css/a11y.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/PNG/icon-contrast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/PNG/icon-fontsize.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/PNG/icon-saturation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/SVG/icon-contrast.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/SVG/icon-fontsize.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/SVG/icon-saturation.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y-toolbar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/fonts/css/selection.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/js/a11y.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/toolbar/js/jquery.scrollto.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/uninstall.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/wp-accessibility-settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/wp-accessibility-toolbar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/wp-accessibility-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-accessibility/wp-accessibility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19116">
+              <caret line="1062" column="21" lean-forward="false" selection-start-line="1062" selection-start-column="21" selection-end-line="1062" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-cron.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-cron.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="237" column="30" lean-forward="true" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rtl.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2484">
+              <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="510" column="15" lean-forward="false" selection-start-line="482" selection-start-column="11" selection-end-line="510" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>the_field</find>
+      <find>photo</find>
+      <find>ajax_url</find>
+      <find>wp_head</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2085" />
+    <option name="y" value="-4" />
+    <option name="width" value="1398" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swiego" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swiego" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a15f459d-50d6-4a7a-97e9-b9d72dd1cbfb" name="Default" comment="" />
+      <created>1517814904300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517814904300</updated>
+      <workItem from="1517814905681" duration="4518000" />
+      <workItem from="1517906600189" duration="5177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9695000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19116">
+          <caret line="1062" column="21" lean-forward="false" selection-start-line="1062" selection-start-column="21" selection-end-line="1062" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19116">
+          <caret line="1062" column="21" lean-forward="false" selection-start-line="1062" selection-start-column="21" selection-end-line="1062" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="510" column="15" lean-forward="false" selection-start-line="482" selection-start-column="11" selection-end-line="510" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="237" column="30" lean-forward="true" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

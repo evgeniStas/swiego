@@ -55,7 +55,7 @@ if(get_locale()=="he_IL"){
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/rtl.scss">
 <?php }?>
-
+<?php wp_head(); ?>
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
