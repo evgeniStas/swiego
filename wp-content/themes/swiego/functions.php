@@ -6,6 +6,8 @@
  * Time: 10:25
  */
 add_action('wp_ajax_contact', 'contact_callback');
+add_action('wp_ajax_nopriv_contact', 'contact_callback');
+
 function contact_callback() {
     global $wpdb;
     $name = $_REQUEST["name"];
@@ -47,10 +49,9 @@ function contact_callback() {
         $mail->AddAddress($to, 'Swiego One');
         $mail->AddAddress('office@swiego.com', 'Swiego One');
         $mail->AddAddress('ofir@swiego.com', 'Ofir shurdeker');
-        $mail->AddAddress('gal@swiego.com', 'Gal');
-        //$mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
-        //$mail->AddAddress('gal@swiego.com', 'evgeni fomenko');
-        $mail->setFrom('office@swiego.com', 'Swiego');
+        $mail->AddAddress('gal@swiego.com', 'Swiego');
+        $mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
+        //$mail->setFrom('office@swiego.com', 'Swiego');
         //$mail->addAddress($to);     // Add a recipient
 
         $mail->isHTML(true);                                  // Set email format to HTML
