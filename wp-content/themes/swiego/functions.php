@@ -47,6 +47,7 @@ function contact_callback() {
         $mail->AddAddress($to, 'Swiego One');
         $mail->AddAddress('office@swiego.com', 'Swiego One');
         $mail->AddAddress('ofir@swiego.com', 'Ofir shurdeker');
+        $mail->AddAddress('gal@swiego.com', 'Gal');
         //$mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
         //$mail->AddAddress('gal@swiego.com', 'evgeni fomenko');
         $mail->setFrom('office@swiego.com', 'Swiego');
