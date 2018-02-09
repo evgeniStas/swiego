@@ -76,8 +76,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <state relative-caret-position="72">
+              <caret line="35" column="101" lean-forward="false" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -232,12 +232,12 @@
       <workItem from="1517906600189" duration="6836000" />
       <workItem from="1517987332908" duration="1290000" />
       <workItem from="1518075175412" duration="3218000" />
-      <workItem from="1518160263812" duration="14325000" />
+      <workItem from="1518160263812" duration="14446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30187000" />
+    <option name="totallyTimeSpent" value="30308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -660,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="72">
+          <caret line="35" column="101" lean-forward="false" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
           <folding />
         </state>
       </provider>
