@@ -111,7 +111,7 @@ if(get_locale()=="he_IL"){
         document.body.appendChild(replacement7);
         addStylesNode.parentElement.removeChild(addStylesNode7);
 
-        var addStylesNode8 = document.getElementById("css1");
+        var addStylesNode8 = document.getElementById("css8");
         var replacement8 = document.createElement("div");
         replacement.innerHTML = addStylesNode.textContent;
         document.body.appendChild(replacement8);
