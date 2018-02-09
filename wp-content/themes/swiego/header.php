@@ -146,7 +146,7 @@ if(get_locale()=="he_IL"){
 
                         <li>
                             <?php if(get_locale()=="he_IL"){?>
-                                <a href="<?php echo site_url();?>/?lang=en">English version</a>
+                                <a href="<?php echo site_url();?>/?lang=en">English</a>
                             <?php }else{?>
                                 <a href="<?php echo site_url();?>/?lang=he">Hebrew</a>
                             <?php }?>
