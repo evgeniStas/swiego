@@ -75,7 +75,7 @@ if(get_locale()=="he_IL"){
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <!-- FOR IE9 below -->
 <!--[if lt IE 9]>
-<script src="js/respond.min.js"></script>
+<script async src="js/respond.min.js"></script>
 
 <![endif]-->
 <!-- Facebook Pixel Code -->
