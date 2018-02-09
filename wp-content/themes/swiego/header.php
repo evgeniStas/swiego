@@ -35,6 +35,8 @@ if(get_locale()=="he_IL"){
 <!--‎<link rel="alternate" href="https://swiego.com" hreflang="en" />-->
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">-->
 
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans"/>
 <!-- Animate.css -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/animate.css"/>
 <!-- Icomoon Icon Fonts-->
