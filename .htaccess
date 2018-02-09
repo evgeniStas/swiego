@@ -9,13 +9,13 @@ RewriteRule . /wordpress/index.php [L]
 </IfModule>
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresDefault "access plus 1200 minutes"
-  ExpiresByType text/html "access plus 1200 minutes"
-  ExpiresByType image/gif "access plus 1200 minutes"
-  ExpiresByType image/jpeg "access plus 1200 minutes"
-  ExpiresByType image/png "access plus 1200 minutes"
-  ExpiresByType text/css "access plus 600 minutes"
-  ExpiresByType text/javascript "access plus 600 minutes"
-  ExpiresByType application/x-javascript "access plus 600 minutes"
-  ExpiresByType text/xml "access plus 600 minutes"
+  ExpiresDefault "84600"
+  ExpiresByType text/html "84600"
+  ExpiresByType image/gif "84600"
+  ExpiresByType image/jpeg "84600"
+  ExpiresByType image/png "84600"
+  ExpiresByType text/css "84600"
+  ExpiresByType text/javascript "84600"
+  ExpiresByType application/x-javascript "84600"
+  ExpiresByType text/xml "84600"
 </IfModule>
