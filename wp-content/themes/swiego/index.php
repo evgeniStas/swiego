@@ -28,7 +28,7 @@
                 <div class="main-title">
                     <h1><?php the_field('title'); ?></h1>
                     <h2><?php the_field('description'); ?></h2>
-                    <button type="button" onclick="scrollToElement(1);" class="btn btn-primary btn-block btn-header"
+                    <button type="button" onclick="scrollToElement(2);" class="btn btn-primary btn-block btn-header"
                             id="scroll"><?php the_field('btn_contact'); ?>
                     </button>
                 </div>

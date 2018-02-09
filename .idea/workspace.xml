@@ -3,7 +3,476 @@
   <component name="ChangeListManager">
     <list default="true" id="a15f459d-50d6-4a7a-97e9-b9d72dd1cbfb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/admin-ajax.php" afterPath="$PROJECT_DIR$/wp-admin/admin-ajax.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.css" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/widgets-rtl.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets.css" afterPath="$PROJECT_DIR$/wp-admin/css/widgets.css" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/css/widgets.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/widgets.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/customize.php" afterPath="$PROJECT_DIR$/wp-admin/customize.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/includes/plugin-install.php" afterPath="$PROJECT_DIR$/wp-admin/includes/plugin-install.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/editor.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.js" afterPath="$PROJECT_DIR$/wp-admin/js/updates.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/updates.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/updates.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets.js" afterPath="$PROJECT_DIR$/wp-admin/js/widgets.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/js/widgets.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/widgets.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/network/settings.php" afterPath="$PROJECT_DIR$/wp-admin/network/settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/network/site-new.php" afterPath="$PROJECT_DIR$/wp-admin/network/site-new.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/options-general.php" afterPath="$PROJECT_DIR$/wp-admin/options-general.php" />
+      <change beforePath="$PROJECT_DIR$/wp-admin/options.php" afterPath="$PROJECT_DIR$/wp-admin/options.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-base.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-columns.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-columns.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-media.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-media.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-post-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-post-base.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-post.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-term.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters-term.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-filters.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-links.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-links.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-model.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-nav-menu.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-nav-menu.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-static-pages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-static-pages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-strings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin-strings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/admin.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-media.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-media.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-post.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-term.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/admin/view-translations-term.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/changelog.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/changelog.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/css/admin.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/css/admin.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/css/admin.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/css/selectmenu.css" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/css/selectmenu.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/css/selectmenu.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/css/selectmenu.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ad.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ad.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ae.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ae.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/af.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/af.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ag.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ag.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ai.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ai.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/al.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/al.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/am.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/am.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/an.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/an.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ao.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ao.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ar.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ar.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/arab.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/arab.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/as.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/as.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/at.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/at.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/au.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/au.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/aw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/aw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ax.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ax.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/az.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/az.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ba.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ba.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/basque.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/basque.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bb.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bd.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bd.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/be.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/be.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bi.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bi.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bj.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bj.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/br.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/br.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/by.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/by.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/bz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ca.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ca.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/catalonia.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/catalonia.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cd.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cd.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ch.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ch.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ci.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ci.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ck.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ck.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/co.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/co.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cv.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cv.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cx.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/cz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/de.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/de.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dj.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dj.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/do.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/do.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/dz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ec.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ec.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ee.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ee.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/eg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/eg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/eh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/eh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/england.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/england.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/er.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/er.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/es.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/es.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/esperanto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/esperanto.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fi.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fi.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fj.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fj.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/fr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ga.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ga.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/galicia.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/galicia.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gb.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gd.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gd.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ge.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ge.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gi.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gi.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gp.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gp.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gq.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gq.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/gy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ht.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ht.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/hu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/id.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/id.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ie.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ie.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/il.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/il.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/in.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/in.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/io.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/io.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/iq.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/iq.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ir.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ir.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/is.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/is.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/it.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/it.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jp.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/jp.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ke.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ke.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ki.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ki.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/km.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/km.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kp.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kp.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kurdistan.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kurdistan.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ky.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ky.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/kz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/la.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/la.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lb.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/li.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/li.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ls.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ls.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lv.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/lv.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ly.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ly.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ma.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ma.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/md.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/md.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/me.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/me.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ml.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ml.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mo.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mp.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mp.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mq.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mq.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ms.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ms.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mv.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mv.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mx.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mx.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/my.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/my.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/mz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/na.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/na.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ne.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ne.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ng.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ng.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ni.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ni.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/no.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/no.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/np.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/np.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/nz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/occitania.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/occitania.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/om.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/om.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pa.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pa.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pe.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pe.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ph.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ph.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ps.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ps.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/pw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/py.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/py.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/qa.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/qa.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/quebec.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/quebec.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ro.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ro.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/rs.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/rs.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ru.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ru.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/rw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/rw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sa.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sa.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sb.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sb.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/scotland.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/scotland.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sd.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sd.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/se.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/se.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sh.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sh.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/si.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/si.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/so.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/so.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ss.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ss.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/st.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/st.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sv.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sv.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/sz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/td.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/td.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/th.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/th.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tibet.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tibet.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tj.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tj.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tk.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tk.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tl.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tl.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/to.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/to.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tr.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tr.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tv.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tv.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/tz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ua.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ua.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ug.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ug.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/us.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/us.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/uy.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/uy.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/uz.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/uz.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/va.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/va.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vc.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vc.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ve.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ve.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/veneto.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/veneto.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vg.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vn.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vn.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vu.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/vu.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/wales.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/wales.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/wf.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/wf.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ws.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ws.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ye.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/ye.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/yt.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/yt.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/za.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/za.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/zm.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/zm.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/zw.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/flags/zw.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-content.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-domain.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-domain.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-url.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang-url.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/choose-lang.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-auto-translate.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-auto-translate.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters-links.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters-links.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters-search.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters-search.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-filters.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-links.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-links.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-nav-menu.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-nav-menu.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-static-pages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend-static-pages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/frontend/frontend.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/api.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/base.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/cache.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/cache.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/class-polylang.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/class-polylang.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/filters-links.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/filters-links.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/filters.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/filters.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/language.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/language.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/license.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/license.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-abstract-domain.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-abstract-domain.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-default.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-default.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-directory.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-directory.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-domain.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-domain.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-model.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-permalinks.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-permalinks.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-subdomain.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links-subdomain.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/links.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/mo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/mo.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/model.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/nav-menu.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/nav-menu.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/olt-manager.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/olt-manager.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/pointer.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/pointer.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/query.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/query.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/static-pages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/static-pages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/switcher.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/switcher.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-object.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-object.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-post.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-term.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/translated-term.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/walker-dropdown.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/walker-dropdown.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/walker-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/walker-list.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/widget-calendar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/widget-calendar.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/include/widget-languages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/include/widget-languages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/install/install-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/install/install-base.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/install/install.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/install/install.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/install/plugin-updater.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/install/plugin-updater.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/install/upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/install/upgrade.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/admin.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/admin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/admin.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/media.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/media.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/media.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/media.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/nav-menu.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/nav-menu.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/nav-menu.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/nav-menu.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/post.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/post.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/post.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/post.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/term.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/term.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/term.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/term.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/user.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/user.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/js/user.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/js/user.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-af.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-af.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ar.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ar.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ary.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ary.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-bg_BG.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-bg_BG.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-cs_CZ.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-cs_CZ.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-et.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-et.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-he_IL.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-he_IL.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-hu_HU.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-hu_HU.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-id_ID.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-id_ID.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ka_GE.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ka_GE.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-lt_LT.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-lt_LT.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-lv.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-lv.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-my_MM.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-my_MM.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-nb_NO.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-nb_NO.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-pl_PL.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-pl_PL.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ru_RU.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-ru_RU.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-sr_RS.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-sr_RS.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-tr_TR.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-tr_TR.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-uk.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-uk.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-vec.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-vec.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-zh_CN.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-zh_CN.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-zh_TW.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/languages/polylang-zh_TW.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image01.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image01.gif" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image02.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image02.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image03.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image03.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image04.png" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/image04.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/lingotek.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/lingotek/lingotek.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/plugins/plugins-compat.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/plugins/plugins-compat.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/plugins/wp-import.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/plugins/wp-import.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/share-slug/settings-share-slug.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/share-slug/settings-share-slug.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/sync/admin-sync.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/sync/admin-sync.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/sync/settings-sync.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/sync/settings-sync.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/translate-slugs/settings-translate-slugs.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/translate-slugs/settings-translate-slugs.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/settings-wpml.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/settings-wpml.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-api.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-compat.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-compat.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-config.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-legacy-api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/modules/wpml/wpml-legacy-api.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/polylang.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/polylang.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/flags.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/flags.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/languages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/languages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-browser.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-browser.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-cpt.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-cpt.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-licenses.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-licenses.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-media.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-media.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-module.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-module.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-tools.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-tools.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-url.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings-url.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-languages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-languages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-string.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/table-string.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-about.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-about.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-languages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-languages.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-lang.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-lang.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-settings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-strings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/settings/view-tab-strings.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/polylang/uninstall.php" afterPath="$PROJECT_DIR$/wp-content/plugins/polylang/uninstall.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/capabilities.php" afterPath="$PROJECT_DIR$/wp-includes/capabilities.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/class-wp-query.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-query.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor-rtl.css" afterPath="$PROJECT_DIR$/wp-includes/css/editor-rtl.css" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor-rtl.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/editor-rtl.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor.css" afterPath="$PROJECT_DIR$/wp-includes/css/editor.css" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/editor.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/editor.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-nav-menu-control.php" afterPath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-nav-menu-control.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/default-filters.php" afterPath="$PROJECT_DIR$/wp-includes/default-filters.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/general-template.php" afterPath="$PROJECT_DIR$/wp-includes/general-template.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/codemirror/jshint.js" afterPath="$PROJECT_DIR$/wp-includes/js/codemirror/jshint.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/media-views.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.js" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-mediaelement.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.js" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/wp-playlist.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.js" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/twemoji.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-loader.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-emoji-release.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/media-template.php" afterPath="$PROJECT_DIR$/wp-includes/media-template.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/ms-functions.php" afterPath="$PROJECT_DIR$/wp-includes/ms-functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/post.php" afterPath="$PROJECT_DIR$/wp-includes/post.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/query.php" afterPath="$PROJECT_DIR$/wp-includes/query.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/script-loader.php" afterPath="$PROJECT_DIR$/wp-includes/script-loader.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/update.php" afterPath="$PROJECT_DIR$/wp-includes/update.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-media-image.php" afterPath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-media-image.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-text.php" afterPath="$PROJECT_DIR$/wp-includes/widgets/class-wp-widget-text.php" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +506,8 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -47,8 +516,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4158">
-              <caret line="237" column="30" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="30" />
+            <state relative-caret-position="298">
+              <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -67,8 +536,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="298">
+              <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -77,8 +546,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            <state relative-caret-position="954">
+              <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -87,7 +556,7 @@
       <file leaf-file-name="admin-ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="1656">
               <caret line="99" column="38" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="38" />
               <folding />
             </state>
@@ -97,8 +566,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9180">
-              <caret line="510" column="15" lean-forward="false" selection-start-line="482" selection-start-column="11" selection-end-line="510" selection-end-column="15" />
+            <state relative-caret-position="438">
+              <caret line="336" column="17" lean-forward="false" selection-start-line="336" selection-start-column="17" selection-end-line="336" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -113,6 +582,9 @@
       <find>ajax_url</find>
       <find>wp_head</find>
       <find>json</find>
+      <find>analytics</find>
+      <find>scrollToElement</find>
+      <find>scroll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,9 +595,10 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
       </list>
     </option>
@@ -159,7 +632,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,10 +657,19 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="swiego" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="swiego" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,12 +705,13 @@
       <workItem from="1517814905681" duration="4518000" />
       <workItem from="1517906600189" duration="6836000" />
       <workItem from="1517987332908" duration="1290000" />
-      <workItem from="1518075175412" duration="1375000" />
+      <workItem from="1518075175412" duration="3218000" />
+      <workItem from="1518160263812" duration="1020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14019000" />
+    <option name="totallyTimeSpent" value="16882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -240,12 +722,12 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -266,6 +748,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="138" column="21" lean-forward="false" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="99" column="38" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="510" column="15" lean-forward="false" selection-start-line="482" selection-start-column="11" selection-end-line="510" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -474,50 +1028,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9180">
-          <caret line="510" column="15" lean-forward="false" selection-start-line="482" selection-start-column="11" selection-end-line="510" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="237" column="30" lean-forward="false" selection-start-line="237" selection-start-column="8" selection-end-line="237" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="1656">
           <caret line="99" column="38" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        <state relative-caret-position="954">
+          <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="336" column="17" lean-forward="false" selection-start-line="336" selection-start-column="17" selection-end-line="336" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>

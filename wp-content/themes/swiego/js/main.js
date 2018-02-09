@@ -336,7 +336,7 @@ function scrollToElement(type) {
     }
     if(type === 2){
         $('html, body').animate({
-            scrollTop: $("#section1").offset().top
+            scrollTop: $("#section3").offset().top
         }, 1000);
     }
 }
