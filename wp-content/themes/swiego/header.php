@@ -48,7 +48,7 @@ if(get_locale()=="he_IL"){
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css"/>
 </noscript>
 <noscript id="css5">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/flexslider.css""/>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/flexslider.css"/>
 </noscript>
 <noscript id="css6">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css"/>
