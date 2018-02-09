@@ -1770,9 +1770,9 @@ html, body {
 
 @media only screen and (min-width: 400px) and (max-width: 1024px) {
     span.icon-envelope-o, .icon-phone {
-        line-height: 1.7 !important;
+       /* line-height: 1.7 !important;
         position: absolute;
-        left: 8px;
+        left: 8px;*/
     }
     .header {
         height: 90vh;
