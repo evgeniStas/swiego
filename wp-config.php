@@ -26,7 +26,7 @@ define('DB_NAME', 'wpdb');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'dd429glk'); //dd429glk
+define('DB_PASSWORD', '09021994'); //dd429glk
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -36,6 +36,8 @@ define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+define('WP_CACHE', true);
 
 /**#@+
  * Authentication Unique Keys and Salts.
