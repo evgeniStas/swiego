@@ -244,25 +244,25 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
 
 <!-- jQuery -->
 
-<script async src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
 <!-- jQuery Easing -->
-<script async src="<?php echo get_template_directory_uri();?>/js/jquery.easing.1.3.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
-<script async src="<?php echo get_template_directory_uri();?>/js/modernizr-2.6.2.min.js"></script>
-<script async src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/modernizr-2.6.2.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
 <!-- Waypoints -->
-<script async src="<?php echo get_template_directory_uri();?>/js/jquery.waypoints.min.js"></script>
-<script async src="<?php echo get_template_directory_uri();?>/js/jssor.slider.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/jquery.waypoints.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/jssor.slider.min.js"></script>
 
 <!-- Owl Carousel -->
-<script async src="<?php echo get_template_directory_uri();?>/js/owl.carousel.min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/owl.carousel.min.js"></script>
 <!-- Flexslider -->
-    <script async src='<?php echo get_template_directory_uri();?>/js/TweenLite.min.js'></script>
-    <script async src='<?php echo get_template_directory_uri();?>/js/EasePack.min.js'></script>
-<script async src="<?php echo get_template_directory_uri();?>/js/jquery.flexslider-min.js"></script>
-<script async src="<?php echo get_template_directory_uri();?>/js/canvas.js"></script>
+    <script src='<?php echo get_template_directory_uri();?>/js/TweenLite.min.js'></script>
+    <script src='<?php echo get_template_directory_uri();?>/js/EasePack.min.js'></script>
+<script src="<?php echo get_template_directory_uri();?>/js/jquery.flexslider-min.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/canvas.js"></script>
 <!-- MAIN JS -->
-    <script async src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
     <?php wp_footer() ?>
 
 </body>
