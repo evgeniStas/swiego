@@ -38,6 +38,35 @@ if(get_locale()=="he_IL"){
 <noscript id="css1">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans"/>
 </noscript>
+<noscript id="css2">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/animate.css"/>
+</noscript>
+<noscript id="css3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/icomoon.css"/>
+</noscript>
+<noscript id="css4">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css"/>
+</noscript>
+<noscript id="css5">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/flexslider.css""/>
+</noscript>
+<noscript id="css6">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css"/>
+</noscript>
+<noscript id="css7">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css"/>
+</noscript>
+<noscript id="css8">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/style.css"/>
+</noscript>
+<?php if(get_locale()=='he_IL'){?>
+<noscript id="css9">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css"/>
+</noscript>
+<noscript id="css10">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/rtl.scss"/>
+</noscript>
+<?php }?>
 <script>
     var loadDeferredStyles = function() {
         var addStylesNode = document.getElementById("css1");
@@ -45,6 +74,61 @@ if(get_locale()=="he_IL"){
         replacement.innerHTML = addStylesNode.textContent;
         document.body.appendChild(replacement);
         addStylesNode.parentElement.removeChild(addStylesNode);
+
+        var addStylesNode2 = document.getElementById("css2");
+        var replacement2 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement2);
+        addStylesNode.parentElement.removeChild(addStylesNode2);
+
+        var addStylesNode3 = document.getElementById("css3");
+        var replacement3 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement3);
+        addStylesNode.parentElement.removeChild(addStylesNode3);
+
+        var addStylesNode4 = document.getElementById("css4");
+        var replacement4 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement4);
+        addStylesNode.parentElement.removeChild(addStylesNode4);
+
+        var addStylesNode5 = document.getElementById("css5");
+        var replacement5 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement5);
+        addStylesNode.parentElement.removeChild(addStylesNode5);
+
+        var addStylesNode6 = document.getElementById("css6");
+        var replacement6 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement6);
+        addStylesNode.parentElement.removeChild(addStylesNode6);
+
+        var addStylesNode7 = document.getElementById("css7");
+        var replacement7 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement7);
+        addStylesNode.parentElement.removeChild(addStylesNode7);
+
+        var addStylesNode8 = document.getElementById("css1");
+        var replacement8 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement8);
+        addStylesNode.parentElement.removeChild(addStylesNode8);
+        <?php if(get_locale()=='he_IL'){?>
+        var addStylesNode9 = document.getElementById("css9");
+        var replacement9 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement9);
+        addStylesNode.parentElement.removeChild(addStylesNode9);
+
+        var addStylesNode10 = document.getElementById("css10");
+        var replacement10 = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement10);
+        addStylesNode.parentElement.removeChild(addStylesNode10);
+        <?php }?>
     };
     var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
         window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
@@ -52,26 +136,6 @@ if(get_locale()=="he_IL"){
     else window.addEventListener('load', loadDeferredStyles);
 </script>
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
-
-<!-- Animate.css -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/animate.css"/>
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/icomoon.css"/>
-<!-- Bootstrap  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css"/>
-<!-- Flexslider  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/flexslider.css"/>
-<!-- Owl Carousel  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css"/>
-<!-- Theme style  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css"/>
-<?php if(get_locale()=='he_IL'){?>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css">
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/rtl.scss">
-<?php }?>
 <?php wp_head(); ?>
 <script type="application/ld+json">
     {
