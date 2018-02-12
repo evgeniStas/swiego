@@ -2720,6 +2720,7 @@ if(get_locale()=="he_IL"){
 <!-- End Facebook Pixel Code -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109341697-1"></script>
+<script defer type='text/javascript' src='<?php echo plugins_url();?>/accessible-poetry/assets/js/accessible-poetry.js?ver=4.9.4'></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
