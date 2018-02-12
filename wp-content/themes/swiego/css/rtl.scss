@@ -136,8 +136,27 @@ ul#menu {
 #fh5co-testimony-section .row {
   direction: initial!important;
 }
-
-
+#fh5co-header nav {
+  float: left!important;
+}
+.lab img {
+  width: 250px!important;
+  height: auto!important;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .lab img {
+    width: 140px!important;
+    height: auto!important;
+    margin:0px!important;
+  }
+  #fh5co-header .header-inner {
+    height: auto!important;
+    margin-top: 20px;
+  }
+  .lab {
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 768px) {
   .form-group {
     margin-bottom: 33px!important;
@@ -156,6 +175,10 @@ ul#menu {
   }
   .lab {
     margin-left: 30px!important;
+  }
+  #fh5co-header .header-inner {
+    height: auto!important;
+    height: 70px!important;
   }
 
 }
