@@ -1981,11 +1981,12 @@ if(get_locale()=="he_IL"){
         font-size: .5em;
     }
 
+    /*
     svg {
         position: relative;
         width: 10%;
         height: 10%;
-    }
+    }*/
 
     .text-copy {
         fill: none;
@@ -2661,10 +2662,9 @@ if(get_locale()=="he_IL"){
         loadCSS("<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css");
         loadCSS("<?php echo plugins_url();?>/accessible-poetry/assets/css/accessible-poetry.css?ver=4.9.4");
         <?php if(get_locale()=='he_IL'){?>
-        loadCSS("<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css);
-        loadCSS("<?php echo get_template_directory_uri();?>/css/rtl.scss);
+        loadCSS("<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css");
+        loadCSS("<?php echo get_template_directory_uri();?>/css/rtl.scss");
         <?php }?>
-
     };
 </script>
 
@@ -2752,7 +2752,7 @@ if(get_locale()=="he_IL"){
     <header id="fh5co-header" role="banner">
         <div class="container">
             <div class="header-inner">
-                <div class="">
+                <div class="lab">
                     <a href="<?php echo site_url();?>"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" width="250" height="40" alt="SWIEGO"> </a>
                     <h1>SWIEGO</h1>
                 </div>

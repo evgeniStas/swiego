@@ -1,73 +1,80 @@
+
 #fh5co-page{
-  direction: rtl;
+  direction: rtl!important;
 }
 
 .rtl{
-  direction: rtl;
+  direction: rtl!important;
 }
 
 .rtl_text{
-  text-align: right;
+  text-align: right!important;
 }
 
 .soc-icon,.icon-magic,.icon-server,.icon-tablet,.icon-line-chart{
-  right:0;
-  left: auto !important;
+  right:0!important;
+  left: auto !important!important;
 }
 
 #fh5co-services-section .services .desc h3{
-    margin-right: 65px;
-    padding-top: 7px;
+    margin-right: 65px!important;
+    padding-top: 7px!important;
 }
 
 .icon-envelope-o{
-  margin-right: 20px;
-  margin-left: 1px;
-  margin-top: 10px;
+  margin-right: 20px!important;
+  margin-left: 1px!important;
+  margin-top: 10px!important;
 }
 
 #fh5co-header nav {
-  float: left;
+  float: left!important;
 }
 
 #fh5co-header nav ul li {
-  display: inline-table;
+  display: inline-table!important;
 }
 
+blockquote p {
+  text-align:right!important;
+}
 select {
-  padding: 0 5em 0 0;
+  padding: 0 5em 0 0!important;
 }
 
 .select {
-  right: 25px;
-  top: -4px;
+  right: 25px!important;
+  top: -4px!important;
 }
 
 span.icon-envelope-o, .icon-phone {
-  color: #27e1ce;
-  line-height: 4;
-  margin-left: 5px;
+  color: #27e1ce!important;
+  line-height: 4!important;
+  margin-left: 5px!important;
 }
 
 #fh5co-offcanvas {
-  left: 0;
-  right: auto;
+  left: 0!important;
+  right: auto!important;
 }
 
 .fh5co-nav-toggle {
   left: 20px !important;
-  right: auto;
+  right: auto!important;
 
 }
 
 blockquote{
-  direction: rtl;
+  direction: rtl!important;
 }
 
 #fh5co-footer .float {
+  float: right!important;
+  margin-left: 10%!important;
+  margin-right: auto!important;
+}
+#fh5co-offcanvas #menu span {
   float: right;
-  margin-left: 10%;
-  margin-right: auto;
 }
 //
 //#fh5co-footer {
@@ -91,48 +98,49 @@ blockquote{
 //}
 
 #fh5co-footer .col-md-3{
-  float: right;
+  float: right!important;
 }
 
 #fh5co-footer .col-md-6{
-  float: right;
+  float: right!important;
 }
 
 #fh5co-footer .col-md-2{
-  float: right;
+  float: right!important;
 }
 
 #fh5co-footer .col-md-push-1 {
-  right: 8.33333%;
-  left:  auto;
+  right: 8.33333%!important;
+  left:  auto!important;
 }
 
 .top-buffer {
-  margin-top: 25px;
+  margin-top: 25px!important;
 }
 
 .offcanvas-visible #fh5co-page {
-  -moz-transform: translateX(275px);
-  -webkit-transform: translateX(275px);
-  -ms-transform: translateX(275px);
-  -o-transform: translateX(275px);
-  transform: translateX(275px);
+  -moz-transform: translateX(275px)!important;
+  -webkit-transform: translateX(275px)!important;
+  -ms-transform: translateX(275px)!important;
+  -o-transform: translateX(275px)!important;
+  transform: translateX(275px)!important;
 }
 
 ul#menu {
-  margin-top: 30px;
-  direction: rtl;
+  direction: rtl!important;
 }
 
 #fh5co-services-section .services .desc {
-      padding-left: 0px;
+      padding-left: 0px!important;
 }
-
+#fh5co-testimony-section .row {
+  direction: initial!important;
+}
 
 
 @media screen and (max-width: 768px) {
   .form-group {
-    margin-bottom: 33px;
+    margin-bottom: 33px!important;
   }
 
   .fh5co-cta {
@@ -140,6 +148,14 @@ ul#menu {
   }
 
   .icon-envelope-o {
-    margin-top: 0px;
+    margin-top: 0px!important;
   }
+  .lab img {
+    width: 140px!important;
+    height: auto!important;
+  }
+  .lab {
+    margin-left: 30px!important;
+  }
+
 }

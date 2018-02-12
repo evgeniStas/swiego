@@ -61,7 +61,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
         <div id="fh5co-services-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading ">
                         <h2><?php the_field('about_swiego_text'); ?></h2>
                         <p><?php the_field('about_swiego_description'); ?></p>
                     </div>
@@ -74,7 +74,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
                 wp_reset_postdata();
                 ?>
                 <div class="row">
-                    <div class="col-md-12 animate-box">
+                    <div class="col-md-12">
                         <div class="services">
                             <i class="soc-icon socicon-ic_outsource"></i>
                             <div class="desc">
@@ -88,7 +88,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
                     foreach( $myposts as $post ){ setup_postdata($post);
                         if($i > 0) {
                             ?>
-                            <div class="col-md-6 animate-box">
+                            <div class="col-md-6">
                                 <div class="services">
                                     <?php echo $post->icon; ?>
                                     <div class="desc">
@@ -111,7 +111,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
         <div class="fh5co-cta">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box fadeInUp">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
                         <h2><?php the_field('technologies'); ?></h2>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
                     setup_postdata($Technologie);
                     $meta_values = get_post_meta( $Technologie->ID ,"class");
                     ?>
-                    <div class="col-md-2 animate-box fadeInUp">
+                    <div class="col-md-2">
                         <div class="tech-icon">
                             <div style="font-size: 25px;" class="tech-title"><?php echo $Technologie->post_title; ?></div>
                             <i style="font-size: 100px;" class="<?php echo $meta_values[0]; ?>"></i>
@@ -146,10 +146,10 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
         <div class="fh5co-cta" style="background-image: url(<?php echo get_template_directory_uri();?>/images/slide_2.jpg);">
             <div class="overlay"></div>
             <div class="container">
-                <div class="col-md-12 text-center animate-box">
+                <div class="col-md-12 text-center">
                     <h3><?php the_field('btn_contact'); ?></h3>
                     <div class="gtco-container">
-                        <div class="row animate-box fadeInUp animated-fast">
+                        <div class="row">
                             <div class="col-md-12">
                                 <form class="form-inline">
                                     <div class="col-md-4 col-sm-4">
@@ -195,14 +195,14 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
         <div id="fh5co-testimony-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading ">
                         <h2><?php the_field('clients_feedback_text'); ?></h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-offset-0 to-animate">
+                    <div class="col-md-12 col-offset-0">
                         <div class="wrap-testimony rollIn">
-                            <div style="direction: ltr;" class="owl-carousel-fullwidth">
+                            <div class="owl-carousel-fullwidth">
 
                                 <?php
                                 global $post;
@@ -241,7 +241,7 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
         <?php get_footer(); ?>
     </div>
 </div>
-
+    <script defer src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
 <!-- jQuery Easing -->
 <script defer src="<?php echo get_template_directory_uri();?>/js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
@@ -259,7 +259,6 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
 <script defer src="<?php echo get_template_directory_uri();?>/js/jquery.flexslider-min.js"></script>
 <script defer src="<?php echo get_template_directory_uri();?>/js/canvas.js"></script>
 <!-- MAIN JS -->
-    <script defer src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
     <?php wp_footer() ?>
 
 </body>

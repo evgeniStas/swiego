@@ -1,32 +1,26 @@
 ;(function () {
     'use strict';
 
-    $('img[src$=".svg"]').each(function() {
-        var $img = jQuery(this);
-        var imgURL = $img.attr('src');
-        var attributes = $img.prop("attributes");
-
-        $.get(imgURL, function(data) {
-            // Get the SVG tag, ignore the rest
-            var $svg = jQuery(data).find('svg');
-
-            // Remove any invalid XML tags
-            $svg = $svg.removeAttr('xmlns:a');
-
-            // Loop through IMG attributes and apply on SVG
-            $.each(attributes, function() {
-                $svg.attr(this.name, this.value);
-            });
-
-            // Replace IMG with SVG
-            $img.replaceWith($svg);
-        }, 'xml');
-    });
 //paste this code under the head tag or in a separate js file.
     // Wait for window load
     $(window).load(function() {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".se-pre-con").fadeOut("slow");
+            setTimeout(function () {
+                var owl = $('.owl-carousel-fullwidth');
+                owl.owlCarousel({
+                    animateOut: 'fadeOut',
+                    items: 1,
+                    loop: true,
+                    margin: 0,
+                    responsiveClass: true,
+                    nav: false,
+                    dots: true,
+                    smartSpeed: 500,
+                    autoHeight: true,
+                    autoplay:true
+                });
+            }, 2000);
     });
 
     var paramsUrl = window
@@ -229,23 +223,6 @@
 
 
 
-    var testimonialCarousel = function () {
-        var owl = $('.owl-carousel-fullwidth');
-        owl.owlCarousel({
-            animateOut: 'fadeOut',
-            items: 1,
-            loop: true,
-            margin: 0,
-            responsiveClass: true,
-            nav: false,
-            dots: true,
-            smartSpeed: 500,
-            autoHeight: true,
-            autoplay:true
-        });
-    };
-
-
     var contentWayPoint = function () {
         var i = 0;
         $('.animate-box').waypoint(function (direction) {
@@ -253,6 +230,7 @@
             if (direction === 'down' && !$(this.element).hasClass('animated')) {
                 i++;
                 $(this.element).addClass('item-animate');
+
                 setTimeout(function () {
                     $('body .animate-box.item-animate').each(function (k) {
                         var el = $(this);
@@ -288,7 +266,7 @@
         burgerMenu();
         toggleBtnColor();
         contentWayPoint();
-        testimonialCarousel();
+        //testimonialCarousel();
         watchScript();
         //jssor_1_slider_init();
     });
