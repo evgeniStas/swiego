@@ -34,7 +34,7 @@ if(get_locale()=="he_IL"){
 <link rel="shortcut icon" href="favicon.ico"/>
 <!--‎<link rel="alternate" href="https://swiego.com" hreflang="en" />-->
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">-->
-<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css' lazyload/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
 <script>
     window.onload = function() {
