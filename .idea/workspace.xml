@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a15f459d-50d6-4a7a-97e9-b9d72dd1cbfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/animate.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="393" lean-forward="true" selection-start-line="14" selection-start-column="393" selection-end-line="14" selection-end-column="393" />
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -79,6 +68,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="3302" lean-forward="false" selection-start-line="0" selection-start-column="3302" selection-end-line="0" selection-end-column="3302" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="2757" column="22" lean-forward="true" selection-start-line="2757" selection-start-column="22" selection-end-line="2757" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/owl.carousel.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/owl.theme.default.min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/animate.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/flexslider.css" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss" />
         <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/header.php" />
       </list>
     </option>
   </component>
@@ -293,12 +292,12 @@
       <workItem from="1517987332908" duration="1290000" />
       <workItem from="1518075175412" duration="3218000" />
       <workItem from="1518160263812" duration="16972000" />
-      <workItem from="1518419461050" duration="22892000" />
+      <workItem from="1518419461050" duration="23859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55726000" />
+    <option name="totallyTimeSpent" value="56693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -373,9 +372,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -431,9 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -505,9 +500,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -637,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="2754" column="31" lean-forward="false" selection-start-line="2754" selection-start-column="31" selection-end-line="2754" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/owl.theme.default.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -719,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/css/rtl.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
@@ -738,7 +713,23 @@
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="2757" column="22" lean-forward="true" selection-start-line="2757" selection-start-column="22" selection-end-line="2757" selection-end-column="22" />
           <folding />
         </state>
       </provider>
