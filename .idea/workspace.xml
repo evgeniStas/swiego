@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a15f459d-50d6-4a7a-97e9-b9d72dd1cbfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/css/animate.css" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/css/animate.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/css/flexslider.css" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/css/flexslider.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/css/owl.theme.default.min.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/js/EasePack.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/js/EasePack.min.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/js/canvas.js" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/js/canvas.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/swiego/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/wp-content/themes/swiego/js/jquery.easing.1.3.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +55,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasePack.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/EasePack.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canvas.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/canvas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2257" lean-forward="false" selection-start-line="0" selection-start-column="2257" selection-end-line="0" selection-end-column="2257" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.easing.1.3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/jquery.easing.1.3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3302" lean-forward="false" selection-start-line="0" selection-start-column="3302" selection-end-line="0" selection-end-column="3302" />
               <folding />
             </state>
           </provider>
@@ -82,36 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="owl.carousel.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/owl.carousel.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="0" column="3149" lean-forward="false" selection-start-line="0" selection-start-column="3144" selection-end-line="0" selection-end-column="3149" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -172,6 +172,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/owl.theme.default.min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/animate.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/swiego/css/flexslider.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/EasePack.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/canvas.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/swiego/js/jquery.easing.1.3.js" />
       </list>
     </option>
   </component>
@@ -287,12 +290,12 @@
       <workItem from="1517987332908" duration="1290000" />
       <workItem from="1518075175412" duration="3218000" />
       <workItem from="1518160263812" duration="16972000" />
-      <workItem from="1518419461050" duration="18946000" />
+      <workItem from="1518419461050" duration="19115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51780000" />
+    <option name="totallyTimeSpent" value="51949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -331,31 +334,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="56" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/admin-ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="99" column="38" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9180">
@@ -734,6 +712,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/EasePack.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2257" lean-forward="false" selection-start-line="0" selection-start-column="2257" selection-end-line="0" selection-end-column="2257" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/js/jquery.easing.1.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3302" lean-forward="false" selection-start-line="0" selection-start-column="3302" selection-end-line="0" selection-end-column="3302" />
           <folding />
         </state>
       </provider>
