@@ -36,14 +36,6 @@ if(get_locale()=="he_IL"){
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">-->
 <style>
 
-    @font-face {
-        font-family: 'icomoon';
-        src: url("fonts/icomoon/icomoon.eot?srf3rx");
-        src: url("fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-        font-weight: normal;
-        font-style: normal;
-    }
-
     /* =======================================================
     *
     * 	Template Style
@@ -63,11 +55,11 @@ if(get_locale()=="he_IL"){
 
     @font-face {
         font-family: 'fontello';
-        src: url('fonts/fontello.eot?90777727');
-        src: url('fonts/fontello.eot?90777727#iefix') format('embedded-opentype'),
-        url('fonts/fontello.woff?90777727') format('woff'),
-        url('fonts/fontello.ttf?90777727') format('truetype'),
-        url('fonts/fontello.svg?90777727#fontello') format('svg');
+        src: url('<?php echo get_template_directory_uri();?>/css/fonts/fontello.eot?90777727');
+        src: url('<?php echo get_template_directory_uri();?>/css/fonts/fontello.eot?90777727#iefix') format('embedded-opentype'),
+        url('<?php echo get_template_directory_uri();?>/css/fonts/fontello.woff?90777727') format('woff'),
+        url('<?php echo get_template_directory_uri();?>/css/fonts/fontello.ttf?90777727') format('truetype'),
+        url('<?php echo get_template_directory_uri();?>/css/fonts/fontello.svg?90777727#fontello') format('svg');
         font-weight: normal;
         font-style: normal;
     }
@@ -660,7 +652,7 @@ if(get_locale()=="he_IL"){
 
     #fh5co-hero {
         min-height: 700px;
-        background: #fff url(images/loader.gif) no-repeat center center;
+        background: #fff url(<?php echo get_template_directory_uri();?>/images/loader.gif) no-repeat center center;
     }
 
     #fh5co-hero .btn {
@@ -2586,7 +2578,7 @@ if(get_locale()=="he_IL"){
         width: 100%;
         height: 100%;
         z-index: 9999;
-        background: url(images/Preloader_8.gif) center no-repeat #fff;
+        background: url(<?php echo get_template_directory_uri();?>/images/Preloader_8.gif) center no-repeat #fff;
     }
 
     .jssorl-009-spin img {
@@ -2616,7 +2608,7 @@ if(get_locale()=="he_IL"){
     }
 
     #large-header {
-        background-image: url('images/demo-1-bg.jpg');
+        background-image: url('<?php echo get_template_directory_uri();?>/images/demo-1-bg.jpg');
     }
 
     .main-title {
