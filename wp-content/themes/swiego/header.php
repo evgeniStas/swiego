@@ -2720,7 +2720,13 @@ if(get_locale()=="he_IL"){
                src="https://www.facebook.com/tr?id=1382482161862505&ev=PageView&noscript=1"/></noscript>
 <!-- End Facebook Pixel Code -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109341697-1"></script>
+
+<script src="//cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script>
+<script>
+    var galite = galite || {};
+    galite.UA = 'UA-109341697-1'; // Insert your tracking code here
+</script>
+
 <script defer type='text/javascript' src='<?php echo plugins_url();?>/accessible-poetry/assets/js/accessible-poetry.js?ver=4.9.4'></script>
 <script>
     window.dataLayer = window.dataLayer || [];

@@ -36,23 +36,6 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
                     </button>
                 </div>
             </div>
-
-            <!--
-            <div class="flexslider js-fullheight">
-                <div class="header">
-                    <div class="info">
-                        <div class="arrow" onclick="scrollToElement(2);"></div>
-
-                        <h1><?php //the_field('title'); ?></h1>
-                        <h2><?php //the_field('description'); ?></h2>
-                        <button type="button" onclick="scrollToElement(1);" class="btn btn-primary btn-block btn-header"
-                                id="scroll"><?php //the_field('btn_contact'); ?>
-                        </button>
-                    </div>
-                </div>
-
-            </div>-->
-
         </aside>
 
 
