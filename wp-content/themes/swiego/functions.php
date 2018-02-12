@@ -6,13 +6,18 @@
  * Time: 10:25
  */
 
-function isa_remove_jquery_migrate( &$scripts) {
-    //if(!is_admin()) {
-        $scripts->remove( 'jquery');
-        //$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.12.4' );
-   // }
+function themename_print_jquery_in_footer( &$scripts ) {
+    // Return if the website is being requested via the admin or theme customizer
+    global $wp_customize;
+    if ( is_admin() || isset( $wp_customize ) ) {
+        return;
+    }
+
+    $scripts->add_data( 'jquery-core', 'group', 1 );
+    $scripts->add_data( 'jquery-migrate', 'group', 1 );
 }
-add_filter( 'wp_default_scripts', 'isa_remove_jquery_migrate' );
+add_action( 'wp_default_scripts', 'themename_print_jquery_in_footer' );
+
 function contact_callback() {
     global $wpdb;
     $name = $_REQUEST["name"];

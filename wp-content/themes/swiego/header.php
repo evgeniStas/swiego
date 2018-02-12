@@ -2667,7 +2667,9 @@ if(get_locale()=="he_IL"){
     };
 </script>
 
-<?php //wp_head(); ?>
+<?php
+    wp_head();
+?>
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -2682,12 +2684,12 @@ if(get_locale()=="he_IL"){
 <script>
     var ajax_url = '<?php echo admin_url('admin-ajax.php');?>';
 </script>
-<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script defer custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script defer src="https://cdn.ampproject.org/v0.js"></script>
 <!-- FOR IE9 below -->
 <!--[if lt IE 9]>
-<script async src="js/respond.min.js"></script>
+<script defer src="js/respond.min.js"></script>
 
 <![endif]-->
 <!-- Facebook Pixel Code -->
@@ -2704,7 +2706,7 @@ if(get_locale()=="he_IL"){
         n.version = '2.0';
         n.queue = [];
         t = b.createElement(e);
-        t.async = !0;
+        t.defer = !0;
         t.src = v;
         s = b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t, s)
@@ -2717,7 +2719,7 @@ if(get_locale()=="he_IL"){
                src="https://www.facebook.com/tr?id=1382482161862505&ev=PageView&noscript=1"/></noscript>
 <!-- End Facebook Pixel Code -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109341697-1"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109341697-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -2736,7 +2738,7 @@ if(get_locale()=="he_IL"){
         h._hjSettings = {hjid: 711117, hjsv: 6};
         a = o.getElementsByTagName('head')[0];
         r = o.createElement('script');
-        r.async = 1;
+        r.defer = 1;
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
