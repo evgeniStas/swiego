@@ -2753,7 +2753,7 @@ if(get_locale()=="he_IL"){
         <div class="container">
             <div class="header-inner">
                 <div class="lab">
-                    <a href="<?php echo site_url();?>"> <img src="<?php echo get_template_directory_uri();?>/images/logo.jpg" width="250" height="40" alt="SWIEGO"> </a>
+                    <a href="<?php echo site_url();?>"> <img src="<?php echo get_template_directory_uri();?>/images/logo.png" width="250" height="40" alt="SWIEGO"> </a>
                     <h1>SWIEGO</h1>
                 </div>
                 <nav role="navigation">
