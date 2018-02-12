@@ -38,7 +38,7 @@ if(get_locale()=="he_IL"){
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
 
 <!-- Animate.css -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/animate.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/animate.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Icomoon Icon Fonts-->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/icomoon.css"/>
 <!-- Bootstrap  -->
