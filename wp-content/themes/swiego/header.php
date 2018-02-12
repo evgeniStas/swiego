@@ -2667,7 +2667,7 @@ if(get_locale()=="he_IL"){
     };
 </script>
 
-<?php wp_head(); ?>
+<?php //wp_head(); ?>
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
