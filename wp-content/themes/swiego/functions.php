@@ -5,6 +5,21 @@
  * Date: 30.01.18
  * Time: 10:25
  */
+function frontend_scripts()
+{
+    wp_enqueue_script( 'my-unique-script-handle', 'path/to/my/script.js' );
+}
+add_action( 'wp_enqueue_scripts', 'frontend_script' );
+
+function make_script_async( $tag, $handle, $src )
+{
+    if ( 'my-unique-script-handle' != $handle ) {
+        return $tag;
+    }
+
+    return str_replace( '<script', '<script async', $tag );
+}
+add_filter( 'script_loader_tag', 'make_script_async', 10, 3 );
 add_action('wp_ajax_contact', 'contact_callback');
 add_action('wp_ajax_nopriv_contact', 'contact_callback');
 function isa_remove_jquery_migrate( &$scripts) {

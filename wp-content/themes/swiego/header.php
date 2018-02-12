@@ -34,6 +34,9 @@ if(get_locale()=="he_IL"){
 <link rel="shortcut icon" href="favicon.ico"/>
 <!--‎<link rel="alternate" href="https://swiego.com" hreflang="en" />-->
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">-->
+<!-- jQuery -->
+
+<script defer src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
 <style>
 
     /* =======================================================
