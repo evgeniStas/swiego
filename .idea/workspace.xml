@@ -66,8 +66,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -131,9 +131,9 @@
       <find>ver</find>
       <find>.js</find>
       <find>hot</find>
-      <find>css</find>
       <find>acc</find>
       <find>mig</find>
+      <find>css</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,12 +258,12 @@
       <workItem from="1517987332908" duration="1290000" />
       <workItem from="1518075175412" duration="3218000" />
       <workItem from="1518160263812" duration="16972000" />
-      <workItem from="1518419461050" duration="1911000" />
+      <workItem from="1518419461050" duration="2070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34745000" />
+    <option name="totallyTimeSpent" value="34904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -681,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="48" />
           <folding />
         </state>
       </provider>

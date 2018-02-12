@@ -40,20 +40,20 @@ if(get_locale()=="he_IL"){
 <!-- Animate.css -->
 <link rel="preload" href="<?php echo get_template_directory_uri();?>/css/animate.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/icomoon.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/icomoon.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Bootstrap  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Flexslider  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/flexslider.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/flexslider.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Owl Carousel  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css"/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css" as="style" onload="this.rel='stylesheet'"/>
 <!-- Theme style  -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css"/>
+<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/style.css" as="style" onload="this.rel='stylesheet'"/>
 <?php if(get_locale()=='he_IL'){?>
-    -    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css">
+    -    <link rel="preload" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css" as="style" onload="this.rel='stylesheet'"/>
     -
-    -    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/rtl.scss">
+    -    <link rel="preload" href="<?php echo get_template_directory_uri();?>/css/rtl.scss" as="style" onload="this.rel='stylesheet'"/>
     -<?php }?>
 <?php wp_head(); ?>
 <script type="application/ld+json">
