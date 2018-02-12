@@ -116,6 +116,7 @@ if(get_locale()=="he_IL"){
 </script>
 <!-- Hotjar Tracking Code for https://swiego.com/ -->
 <script>
+
     (function (h, o, t, j, a, r) {
         h.hj = h.hj || function () {
             (h.hj.q = h.hj.q || []).push(arguments)

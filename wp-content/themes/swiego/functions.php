@@ -7,7 +7,13 @@
  */
 add_action('wp_ajax_contact', 'contact_callback');
 add_action('wp_ajax_nopriv_contact', 'contact_callback');
-
+function isa_remove_jquery_migrate( &$scripts) {
+    if(!is_admin()) {
+        $scripts->remove( 'jquery');
+        //$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.12.4' );
+    }
+}
+add_filter( 'wp_default_scripts', 'isa_remove_jquery_migrate' );
 function contact_callback() {
     global $wpdb;
     $name = $_REQUEST["name"];
