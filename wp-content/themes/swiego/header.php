@@ -34,8 +34,6 @@ if(get_locale()=="he_IL"){
 <link rel="shortcut icon" href="favicon.ico"/>
 <!--‎<link rel="alternate" href="https://swiego.com" hreflang="en" />-->
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">-->
-<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css' lazyload/>
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
 <style>
 
     @font-face {
@@ -2657,6 +2655,9 @@ if(get_locale()=="he_IL"){
     window.onload = function() {
 
         //loadCSS("<?php echo get_template_directory_uri();?>/css/style.css");
+
+        loadCSS("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
+        loadCSS("https://fonts.googleapis.com/css?family=Josefin+Sans");
         loadCSS("<?php echo get_template_directory_uri();?>/css/animate.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/icomoon.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/bootstrap.css");
