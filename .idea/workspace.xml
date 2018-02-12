@@ -43,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="307">
               <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="40" column="70" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="70" />
+            <state relative-caret-position="514">
+              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -268,12 +268,12 @@
       <workItem from="1517987332908" duration="1290000" />
       <workItem from="1518075175412" duration="3218000" />
       <workItem from="1518160263812" duration="16972000" />
-      <workItem from="1518419461050" duration="4398000" />
+      <workItem from="1518419461050" duration="4506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37232000" />
+    <option name="totallyTimeSpent" value="37340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -686,18 +686,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="40" column="70" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="70" />
+        <state relative-caret-position="307">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="514">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
           <folding />
         </state>
       </provider>
