@@ -38,22 +38,22 @@ if(get_locale()=="he_IL"){
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
 
 <!-- Animate.css -->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/animate.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/animate.css"/>
 <!-- Icomoon Icon Fonts-->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/icomoon.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/icomoon.css"/>
 <!-- Bootstrap  -->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.css"/>
 <!-- Flexslider  -->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/flexslider.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/flexslider.css"/>
 <!-- Owl Carousel  -->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css" as="style" onload="this.rel='stylesheet'"/>
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css"/>
 <!-- Theme style  -->
-<link rel="preload" href="<?php echo get_template_directory_uri();?>/css/style.css" as="style" onload="this.rel='stylesheet'"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/style.css"/>
 <?php if(get_locale()=='he_IL'){?>
-    -    <link rel="preload" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css" as="style" onload="this.rel='stylesheet'"/>
+    -    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css"/>
     -
-    -    <link rel="preload" href="<?php echo get_template_directory_uri();?>/css/rtl.scss" as="style" onload="this.rel='stylesheet'"/>
+    -    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/rtl.scss"/>
     -<?php }?>
 <?php wp_head(); ?>
 <script type="application/ld+json">
