@@ -13,6 +13,7 @@ if(get_locale()=="he_IL"){
 ?>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="description" itemprop="description" content="Swiego הינה חברה שמאמינה בחדשנות ויצירתיות תוך מתן דגש על סטנדרטים גבוהים, לשם כך יצרנו צוותי פיתוח מקצועיים ביותר אשר יעסקו בפיתוח אתרים, מערכות ואפליקציות בכל השלבים (איפיון,עיצוב ועד סיום המוצר)." />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="keywords"
       content="outsourcing, Offshore Development, Software Outsourcing, מיקור חוץ, מיקור חוץ באוקראינה, בית תוכנה, בית תוכנה במיקור חוץ, בית תוכנה באוקראינה, swiego, פיתוח אפליקציות,פיתוח אתרים, בניית אתרים, QA , QA outsourcing,design outsourcing, Web Development , SEO,  Graphic Design, עיצוב אתרים, פיתוח באוקראינה, technology software , Offshore outsourcing , WordPress, woocommerce, Dedicated Team,Fintech Specialization, Project manager,API Connection,outsourcing ukraine , פיתוח אתר לעסק,אתרי תדמית, אתרים מורכבים, מיקור חוץ בהודו, דרושים מתכנתים, צוות פיתוח יעודי,סטארטאפ,startup"/>
@@ -29,7 +30,6 @@ if(get_locale()=="he_IL"){
 <meta name="twitter:url" content=""/>
 <meta name="twitter:card" content=""/>
 <meta name="theme-color" content="#9bdee0" />
-<meta name="description" itemprop="description" content="Swiego הינה חברה שמאמינה בחדשנות ויצירתיות תוך מתן דגש על סטנדרטים גבוהים, לשם כך יצרנו צוותי פיתוח מקצועיים ביותר אשר יעסקו בפיתוח אתרים, מערכות ואפליקציות בכל השלבים (איפיון,עיצוב ועד סיום המוצר)." />
 <script defer src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <link rel="shortcut icon" href="favicon.ico"/>
