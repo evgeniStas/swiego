@@ -20,8 +20,8 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
 <head>
-    <title>1<?php bloginfo('description'); ?></title>
-    <?php get_header(); ?>
+    <title><?php bloginfo('description'); ?></title>
+    <?php include('header.php'); //get_header(); ?>
 
     <div id='section0' class="section">
 
