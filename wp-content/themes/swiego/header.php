@@ -20,7 +20,7 @@ if(get_locale()=="he_IL"){
 <meta name="author" content="Swiego"/>
 <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
 <!-- Facebook and Twitter integration -->
-<meta property="og:title" content=""<?php bloginfo('description'); ?>/>
+<meta property="og:title" content="<?php bloginfo('description'); ?>"/>
 <meta property="og:image" content=""/>
 <meta property="og:url" content=""/>
 <meta property="og:site_name" content="<?php bloginfo('name'); ?>"/>
