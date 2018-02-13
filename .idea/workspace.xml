@@ -36,7 +36,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="4320">
               <caret line="240" column="76" lean-forward="false" selection-start-line="240" selection-start-column="76" selection-end-line="240" selection-end-column="76" />
               <folding />
             </state>
@@ -76,8 +76,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="2729" column="127" lean-forward="false" selection-start-line="2729" selection-start-column="127" selection-end-line="2729" selection-end-column="127" />
+            <state relative-caret-position="627">
+              <caret line="2669" column="0" lean-forward="true" selection-start-line="2669" selection-start-column="0" selection-end-line="2669" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -277,12 +277,12 @@
       <workItem from="1518075175412" duration="3218000" />
       <workItem from="1518160263812" duration="16972000" />
       <workItem from="1518419461050" duration="27080000" />
-      <workItem from="1518507305517" duration="6671000" />
+      <workItem from="1518507305517" duration="6814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66585000" />
+    <option name="totallyTimeSpent" value="66728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -688,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="4320">
           <caret line="240" column="76" lean-forward="false" selection-start-line="240" selection-start-column="76" selection-end-line="240" selection-end-column="76" />
           <folding />
         </state>
@@ -696,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/swiego/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="2729" column="127" lean-forward="false" selection-start-line="2729" selection-start-column="127" selection-end-line="2729" selection-end-column="127" />
+        <state relative-caret-position="627">
+          <caret line="2669" column="0" lean-forward="true" selection-start-line="2669" selection-start-column="0" selection-end-line="2669" selection-end-column="0" />
           <folding />
         </state>
       </provider>

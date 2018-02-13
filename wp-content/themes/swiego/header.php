@@ -2660,7 +2660,7 @@ if(get_locale()=="he_IL"){
         loadCSS("<?php echo get_template_directory_uri();?>/css/flexslider.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css");
-        loadCSS("<?php echo plugins_url();?>/accessible-poetry/assets/css/accessible-poetry.css?ver=4.9.4");
+        loadCSS("<?php echo plugins_url();?>/sogo-accessibility/public/css/sogo-accessibility-public.css?ver=1.0.5");
         <?php if(get_locale()=='he_IL'){?>
         loadCSS("<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/rtl.scss");
@@ -2669,7 +2669,7 @@ if(get_locale()=="he_IL"){
 </script>
 
 <?php
-    wp_head();
+    //wp_head();
 ?>
 <script type="application/ld+json">
     {
