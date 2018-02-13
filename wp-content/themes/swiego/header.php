@@ -29,6 +29,7 @@ if(get_locale()=="he_IL"){
 <meta name="twitter:image" content=""/>
 <meta name="twitter:url" content=""/>
 <meta name="twitter:card" content=""/>
+<meta name="theme-color" content="#9bdee0" />
 <script defer src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <link rel="shortcut icon" href="favicon.ico"/>
