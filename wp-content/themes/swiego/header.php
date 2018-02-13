@@ -30,6 +30,7 @@ if(get_locale()=="he_IL"){
 <meta name="twitter:url" content=""/>
 <meta name="twitter:card" content=""/>
 <meta name="theme-color" content="#9bdee0" />
+<meta name="description" itemprop="description" content="Swiego הינה חברה שמאמינה בחדשנות ויצירתיות תוך מתן דגש על סטנדרטים גבוהים, לשם כך יצרנו צוותי פיתוח מקצועיים ביותר אשר יעסקו בפיתוח אתרים, מערכות ואפליקציות בכל השלבים (איפיון,עיצוב ועד סיום המוצר)." />
 <script defer src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <link rel="shortcut icon" href="favicon.ico"/>
