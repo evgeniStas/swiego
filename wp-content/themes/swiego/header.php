@@ -14,7 +14,6 @@ if(get_locale()=="he_IL"){
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="SWIEGO Software Outsourcing & Offshore Development"/>
 <meta name="keywords"
       content="outsourcing, Offshore Development, Software Outsourcing, מיקור חוץ, מיקור חוץ באוקראינה, בית תוכנה, בית תוכנה במיקור חוץ, בית תוכנה באוקראינה, swiego, פיתוח אפליקציות,פיתוח אתרים, בניית אתרים, QA , QA outsourcing,design outsourcing, Web Development , SEO,  Graphic Design, עיצוב אתרים, פיתוח באוקראינה, technology software , Offshore outsourcing , WordPress, woocommerce, Dedicated Team,Fintech Specialization, Project manager,API Connection,outsourcing ukraine , פיתוח אתר לעסק,אתרי תדמית, אתרים מורכבים, מיקור חוץ בהודו, דרושים מתכנתים, צוות פיתוח יעודי,סטארטאפ,startup"/>
 <meta name="author" content="Swiego"/>
