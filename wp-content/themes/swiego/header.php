@@ -2727,7 +2727,7 @@ if(get_locale()=="he_IL"){
     galite.UA = 'UA-109341697-1'; // Insert your tracking code here
 </script>
 
-<script defer type='text/javascript' src='<?php echo plugins_url();?>/accessible-poetry/assets/js/accessible-poetry.js?ver=4.9.4'></script>
+<script defer type='text/javascript' src='<?php echo plugins_url();?>/sogo-accessibility/public/js/sogo-accessibility-public.js'></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
