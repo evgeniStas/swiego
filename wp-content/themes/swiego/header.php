@@ -2645,6 +2645,30 @@ if(get_locale()=="he_IL"){
             font-size: 3em;
         }
     }
+    #open_sogoacc {
+        background: #0780C3;
+        color: #FFF;
+        border-bottom: 1px solid #0780C3;
+        border-right: 1px solid #0780C3;
+    }
+
+    #close_sogoacc {
+        background: #0780C3;
+        color: #fff;
+    }
+
+    #sogoacc div#sogo_font_a button {
+        color: #0780C3;
+
+    }
+
+    body.sogo_readable_font * {
+        font-family: "Arial", sans-serif !important;
+    }
+
+    body.sogo_underline_links a {
+        text-decoration: underline !important;
+    }
 
 </style>
 <script>
@@ -2661,6 +2685,7 @@ if(get_locale()=="he_IL"){
         loadCSS("<?php echo get_template_directory_uri();?>/css/owl.carousel.min.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/owl.theme.default.min.css");
         loadCSS("<?php echo plugins_url();?>/sogo-accessibility/public/css/sogo-accessibility-public.css?ver=1.0.5");
+        loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css?ver=1.0.5");
         <?php if(get_locale()=='he_IL'){?>
         loadCSS("<?php echo get_template_directory_uri();?>/css/jquery.fullPage.css");
         loadCSS("<?php echo get_template_directory_uri();?>/css/rtl.scss");
@@ -2669,7 +2694,7 @@ if(get_locale()=="he_IL"){
 </script>
 
 <?php
-    wp_head();
+   // wp_head();
 ?>
 <script type="application/ld+json">
     {
