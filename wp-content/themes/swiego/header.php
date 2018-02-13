@@ -451,7 +451,7 @@ if(get_locale()=="he_IL"){
         position: sticky;
         top: 0;
         background: white;
-        z-index: 1;
+        z-index: 5;
     }
 
     @media screen and (max-width: 768px) {
