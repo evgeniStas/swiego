@@ -2775,8 +2775,8 @@ if(get_locale()=="he_IL"){
                 </div>
                 <nav role="navigation">
                     <ul id="menu">
-                        <span class="icon-envelope-o" ></span> <li  aria-hidden="true"><?php the_field('email_text',$postTRanslate); ?>: <a href="mailto:<?php the_field('email',$postTRanslate); ?>"><?php the_field('email',$postTRanslate); ?></a></li>
-                        <span class="icon-phone" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
+                        <span class="<?php if(get_locale()=="he_IL"){echo "icon-phone";}else{echo "icon-envelope-o";}?>" ></span> <li  aria-hidden="true"><?php the_field('email_text',$postTRanslate); ?>: <a href="mailto:<?php the_field('email',$postTRanslate); ?>"><?php the_field('email',$postTRanslate); ?></a></li>
+                        <span class="<?php if(get_locale()=="he_IL"){echo "icon-envelope-o";}else{echo "icon-phone";}?>" ></span> <li aria-hidden="true"><?php the_field('phone_text',$postTRanslate); ?>: <a href="tel:<?php the_field('phone',$postTRanslate); ?>"><?php the_field('phone',$postTRanslate); ?></a></li>
 
                         <li>
                             <?php if(get_locale()=="he_IL"){?>
