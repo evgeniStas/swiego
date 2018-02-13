@@ -2669,7 +2669,7 @@ if(get_locale()=="he_IL"){
 </script>
 
 <?php
-    //wp_head();
+    wp_head();
 ?>
 <script type="application/ld+json">
     {
