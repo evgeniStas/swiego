@@ -24,7 +24,6 @@ header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30
     <?php include('header.php'); //get_header(); ?>
 
     <div id='section0' class="section">
-11111111111
         <aside id="fh5co-hero" class="js-fullheight" >
 
             <div id="large-header" class="large-header">
