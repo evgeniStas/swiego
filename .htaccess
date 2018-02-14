@@ -6,6 +6,7 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /wordpress/index.php [L]
+RewriteRule ^/il/(.*)$ /$1 [QSA,L,R=301,NC]
 </IfModule>
 <IfModule mod_expires.c>
       ExpiresActive On
@@ -179,7 +180,3 @@ AddOutputFilterByType DEFLATE application/x-javascript
     </IfModule>
 </FilesMatch>
 # END W3TC Browser Cache
-
-RewriteEngine on
-RewriteBase /
-RewriteRule ^il/.*$ / [L,R=301]
