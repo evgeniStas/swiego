@@ -179,4 +179,4 @@ AddOutputFilterByType DEFLATE application/x-javascript
     </IfModule>
 </FilesMatch>
 # END W3TC Browser Cache
-
+RewriteRule ^il/.*$ / [L,R=301]
